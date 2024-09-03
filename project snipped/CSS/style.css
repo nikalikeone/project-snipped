@@ -1,0 +1,155 @@
+
+@font-face {
+    font-family: 'TTHoves';
+    src: local('TTHoves-Medium'), url('../fonts/TTHoves-Medium.woff') format("woff"),
+    local('TTHoves-Medium'), url('../fonts/TTHoves-Medium.woff2') format("woff2"),
+    local('TTHoves-Medium'), url('../fonts/TTHoves-Medium.ttf') format("ttf");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTHoves';
+    src: local('TTHoves-Regular'), url('../fonts/TTHoves-Regular.woff') format("woff"),
+    local('TTHoves-Medium'), url('../fonts/TTHoves-Regular.woff2') format("woff2"),
+    local('TTHoves-Medium'), url('../fonts/TTHoves-Regular.ttf') format("ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'TTHoves', sans-serif;
+    line-height: 16px;
+    font-weight: 400;
+    background-color: #141416;
+}
+
+img {
+    width: 100%;
+}
+
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .content {
+        width: 343px;
+        background-color: #FFFFFF;
+        border-radius: 18px;
+    }
+
+
+    .container {
+        padding: 24px;
+    }
+
+    .img-building {
+        width: 343px;
+        height: 343px;
+        position: relative;
+    }
+    .page {
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 8px 16px;
+        background-color: #141416;
+        border-radius: 130px;
+
+    }
+    .page p {
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+
+    .start {
+        display: flex;
+    }
+
+    .start-img {
+        width: 16px;
+    }
+
+    .start-text {
+        font-size: 12px;
+        font-weight: 400;
+        color: #6439DF
+    }
+
+    .title {
+        color: #141416;
+        margin: 8px 0;
+        font-size: 24px;
+    }
+
+    .title-desc {
+        color: #777E90;
+        padding-top: 4px;
+        font-size: 12px;
+    }
+
+    .property {
+        display: flex;
+        flex-direction: row;
+        margin-top: 16px;
+    }
+
+    .property-box {
+        border: 1px solid #E6E8EC;
+        border-radius: 130px;
+        padding: 13px 26px;
+        margin-right: 4px;
+    }
+
+    .property-box p {
+        font-weight: 600;
+        font-size: 12px;
+        color: #353945;
+    }
+
+    .container ul {
+        list-style-image: url(img/Ellipse\ 32.svg);
+        padding-left: 6px;
+        border-bottom: 1px solid #E6E8EC;
+        padding-bottom: 16px;
+    }
+
+    .container ul li{
+        color: #353945;
+        margin-top: 18px;
+        font-size: 12px;
+        padding-left: 14px;
+    }
+
+    .location {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .location-img {
+        width: 21px;
+    }
+
+    .location-underground {
+        font-weight: 600;
+        margin: 0 8px;
+        color : #353945;
+        font-size: 12px;
+    }
+
+    .location-time {
+        color: #777E90;
+        font-size: 12px;
+    }
+}
