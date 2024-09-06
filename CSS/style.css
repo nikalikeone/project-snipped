@@ -38,15 +38,14 @@ h1 {
     margin: 0;
 }
 
+.content {
+    width: 343px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+}
+
 
 @media (max-width: 768px) {
-
-    .content {
-        width: 343px;
-        background-color: #FFFFFF;
-        border-radius: 18px;
-    }
-
 
     .container {
         padding: 24px;
