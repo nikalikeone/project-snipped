@@ -87,7 +87,7 @@ h1 {
 
     .title {
         color: #141416;
-        margin: 8px 0;
+        margin: 12px 0;
         font-size: 24px;
     }
 
@@ -100,13 +100,13 @@ h1 {
     .property {
         display: flex;
         flex-direction: row;
-        margin-top: 16px;
+        margin-top: 15px;
     }
 
     .property-box {
         border: 1px solid #E6E8EC;
         border-radius: 130px;
-        padding: 13px 26px;
+        padding: 11px 23px;
         margin-right: 4px;
     }
 
@@ -125,9 +125,9 @@ h1 {
 
     .container ul li{
         color: #353945;
-        margin-top: 18px;
+        margin-top: 16px;
         font-size: 12px;
-        padding-left: 14px;
+        padding-left: 15px;
     }
 
     .location {
